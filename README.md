@@ -4,12 +4,21 @@ As technology advances, agriculture is poised for a transformation with the inte
 
 ## Details
 
-The DeepWeeds dataset consists of 17,509 images capturing eight different weed species native to Australia in situ with neighbouring flora: Chinee apple (0), Lantana (1), Parkinsonia (2), Parthenium (3), Prickly acacia (4), rubber vine (5), siam weed (6), and snake weed (7).The data was sourced from a 2019 Nature study led by Alex Olsen, an expert in image processing for agricultural applications, highlighting the dataset’s reliability.  
+The DeepWeeds dataset contains 17,509 images capturing eight distinct weed species native to Australia, photographed in situ alongside neighboring flora. These weed species include Chinee apple (0), Lantana (1), Parkinsonia (2), Parthenium (3), Prickly acacia (4), Rubber vine (5), Siam weed (6), and Snake weed (7). The dataset originates from a 2019 study published in Nature by Alex Olsen, a renowned expert in image processing for agricultural applications, ensuring high reliability and quality of the data.
 
-Our project comprises 3 main sections:
+Project Structure
+Our project is divided into three key sections:
 
-1. Data Preprocessing - Dealing with imbalanced data using undersampling. Preprocessing images by resizing, normalization, edge detection, feature extraction, and reducing dimensionality using PCA and LDA.
+1. Data Preprocessing:
+- Addressing class imbalance using undersampling techniques.
+- Preprocessing images by applying: Resizing and normalization, Edge detection to highlight critical features, Feature extraction, and dimensionality reduction using PCA (Principal Component Analysis) and LDA (Linear Discriminant Analysis).
 
-2. Model Training - Linear Models(kNN, Random Forest and SVM) and CNNs.
+2. Model Training:
+- Linear Models: k-Nearest Neighbors (kNN), Random Forest, and SVM.
+- Deep Learning Models: Convolutional Neural Networks (CNNs).
 
-3. Model Evaluation - Visualizing the results using classification report and confusion matrix. Further evaluating the cnn model using the GradCAM.
+3. Model Evaluation:
+- Classification reports and confusion matrices.
+- Advanced interpretability techniques like GradCAM to visualize CNN decision-making.
+
+This structured approach ensures thorough exploration of the dataset, robust model training, and insightful evaluation, paving the way for accurate weed classification and potential real-world applications in agricultural management.
