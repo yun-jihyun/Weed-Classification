@@ -8,8 +8,8 @@ The DeepWeeds dataset consists of 17,509 images capturing eight different weed s
 
 Our project comprises 3 main sections:
 
-1. Data Preprocessing - dealing with imbalanced data using undersampling and doing feature engineering using PCA.
+1. Data Preprocessing - Dealing with imbalanced data using undersampling. Preprocessing images by resizing, normalization, edge detection, feature extraction, and reducing dimensionality using PCA and LDA.
 
 2. Model Training - Linear Models(kNN, Random Forest and SVM) and CNNs.
 
-3. Model Evaluation - Visualizing the results using confusion matrix, GradCAM..
+3. Model Evaluation - Visualizing the results using classification report and confusion matrix. Further evaluating the cnn model using the GradCAM.
